@@ -1,0 +1,1 @@
+SELECT * FROM Comments INNER JOIN Author ON Comments.AuthorID = Author.AuthorID INNER JOIN PullRequests ON Comments.RequestID = PullRequests.RequestID WHERE PullRequests.AuthorID = 3871056 AND Comments.AuthorID = 679236
