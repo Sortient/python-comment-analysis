@@ -63,3 +63,6 @@ def plot_review_length(user_id):
     ax1.bar(x, y1, color=color)
     plt.title("Review Comment Length versus Time for " + username)
     plt.show()
+
+def plot_heatmap_sentiment():
+    print("Do something")

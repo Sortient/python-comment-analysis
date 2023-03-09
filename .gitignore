@@ -1,0 +1,6 @@
+
+*.sql
+__pycache__/sentiment_analysis.cpython-310.pyc
+__pycache__/retrievejson.cpython-311.pyc
+__pycache__/retrievejson.cpython-310.pyc
+.DS_Store
