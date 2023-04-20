@@ -9,8 +9,7 @@ A UNIX based OS
 # Installation Guide
 Download the repository and open a terminal window in the python-comment-analysis folder.
 
-# Usage Guide
-The first thing to do is to install the required Python packages. This can be done by running the following commands:
+Next, install the required Python packages by running the following commands:
 ```python
 pip3 install sqlite3
 pip3 install nltk
@@ -19,8 +18,10 @@ pip3 install tqdm
 pip3 install matplotlib
 pip3 install pandas
 ```
+# Usage Guide
+
 ## Retrieving Review Comments
-Next we need to retrieve pull request comments in order to analyse results. This can be done by running the following command:
+Before we can generate any results we first need to retrieve pull request comments in order to analyse results. This can be done by running the following command:
 ```sh
 sh retrieve.sh
 ```
