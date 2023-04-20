@@ -1,4 +1,3 @@
-thecreator clichooseyourownadventure
 tensorflow tensorflow
 apache kafka
 eclipse-cdt cdt
@@ -11,5 +10,3 @@ zendframework zendframework
 angular angular.js
 twbs bootstrap
 openstack horizon
-practical-tutorials project-based-learning
-tensorflow tensorflow
