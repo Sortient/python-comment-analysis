@@ -1,0 +1,15 @@
+thecreator clichooseyourownadventure
+tensorflow tensorflow
+apache kafka
+eclipse-cdt cdt
+openstack nova
+rails rails
+cocos2d cocos2d-x
+symfony symfony
+caskroom homebrew-cask
+zendframework zendframework
+angular angular.js
+twbs bootstrap
+openstack horizon
+practical-tutorials project-based-learning
+tensorflow tensorflow

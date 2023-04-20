@@ -4,3 +4,11 @@ __pycache__/sentiment_analysis.cpython-310.pyc
 __pycache__/retrievejson.cpython-311.pyc
 __pycache__/retrievejson.cpython-310.pyc
 .DS_Store
+*.pyc
+test-scripts/your_database.db
+test-scripts/scripttesting.py
+test-scripts/query01
+test-scripts/plot_testing.py
+test-scripts/mydatabase.db
+test-scripts/heatmap-test-stop-words.py
+test-scripts/detect_code_snippet.py
