@@ -6,7 +6,7 @@ Minimum version Python 3.10
 
 A UNIX based OS
 
-# Installation and Set-up
+# Installation and Setup
 Download the repository and open a terminal window in the python-comment-analysis folder.
 
 Next, install the required Python packages by running the following commands:
