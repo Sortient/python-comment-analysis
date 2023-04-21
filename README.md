@@ -24,7 +24,7 @@ Before we can generate any results we first need to retrieve pull request commen
 sh retrieve.sh
 ```
 
-Verify that the projects are successfully inputted into the database by running the following script:
+The first time this runs will take a while to complete. Once it finishes, you can verify that the projects are successfully inputted into the database by running the following script:
 
 ```python
 python3 list.py
