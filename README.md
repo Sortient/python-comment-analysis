@@ -28,9 +28,9 @@ This will generate a list of all projects in the database along with the number 
 # Usage Guide
 There is a default list of repositories contained within **repos.txt**, however if you wish you can add additional repositories. They must be in the format {owner} {repo} separated by a space.
 
-#Usage
+# Usage
 
-##Adding Additional Projects
+## Adding Additional Projects
 repos.txt contains a list of default repositories that retrieve.sh will fetch pull requests from, but you can add additional repositories by adding a new line in the format {owner} {repo}, ensuring that a space separates the two.
 
 By default retrieve.sh will retrieve a maximum of 1000 comments from a repository, however this can be changed by specifying a maximum number as below:
