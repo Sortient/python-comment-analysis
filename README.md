@@ -6,6 +6,8 @@ Minimum version Python 3.10
 
 A UNIX based OS
 
+SQLite Studio (recommended)
+
 # Installation and Setup
 Download the repository and open a terminal window in the python-comment-analysis folder.
 
@@ -13,6 +15,8 @@ Next, install the required Python packages by running the following command:
 ```sh
 sh install.sh
 ```
+You will also need to generate a personal token in order to make use of the GitHub API. Information on this can be found [here](https://docs.github.com/en/enterprise-server@3.4/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token). Copy this token and paste it into token.txt.
+
 ## Retrieving Review Comments
 Before we can generate any results we first need to retrieve pull request comments in order to analyse results. This can be done by running the following command:
 ```sh
@@ -44,3 +48,18 @@ retrieve.sh will skip over any projects that are already in the database. You ca
 python3 retrieve.py {owner} {repo} {max_comments}
 ```
 max_comments is an optional variable that will default to 1000 if left blank.
+
+## Generating Results
+Figures may be displayed after running the following scripts; they will also be saved to the output folder.
+
+### Overall Project Results
+To add.
+
+### Positive and Negative Words Used
+To add.
+
+### Comparing Project Sentiment - Reviewer vs Author
+To add.
+
+### Automated Comment Scoring
+To add.
