@@ -53,7 +53,18 @@ max_comments is an optional variable that will default to 1000 if left blank.
 Figures may be displayed after running the following scripts; they will also be saved to the output folder.
 
 ### Overall Project Results
-To add.
+These results will be saved to output/overall.
+
+To compare various metrics across all projects, run the following command:
+```sh
+sh overall.sh
+```
+which will automatically generate figures comparing each project that you have stored in your database. It will compare:
+- Total number of comments
+- Percentage of positive comments
+- Average comment sentiment
+- Percentage of comments containing code snippets
+- Average stop word ratio
 
 ### Positive and Negative Words Used
 To add.
@@ -62,4 +73,8 @@ To add.
 To add.
 
 ### Automated Comment Scoring
-To add.
+To receive automated feedback on a new review comment, run the following command:
+```python
+python3 input-comment.py '{your comment here}'
+```
+Ensure that you surround your review comment with apostrophes. You will receive a breakdown of the sentiment of each sentence contained within your review.
