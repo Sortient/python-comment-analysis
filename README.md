@@ -1,5 +1,5 @@
 # Python Review Comment Analysis
-This is a collection of scripts designed to help analyse and automatically score code review comments, from projects on GitHub.
+This is a modular suite of tools designed to help analyse and automatically score code review comments, from projects on GitHub.
 
 # Requirements
 Minimum version Python 3.10
