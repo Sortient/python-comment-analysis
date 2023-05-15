@@ -28,9 +28,7 @@ The first time this runs will take a while to complete. Once it finishes, you ca
 ```python
 python3 list.py
 ```
-This will generate a list of all projects in the database along with the number of comments. If this list generates successfully, the 
-# Usage Guide
-There is a default list of repositories contained within **repos.txt**, however if you wish you can add additional repositories. They must be in the format {owner} {repo} separated by a space.
+This will generate a list of all projects in the database along with the number of comments. If this list generates successfully, then you have successfully retrieved data from the GitHub API. 
 
 # Usage
 
