@@ -67,10 +67,22 @@ which will automatically generate figures comparing each project that you have s
 - Average stop word ratio
 
 ### Positive and Negative Words Used
-To add.
+To observe the top x positive and negative words used within a project, run the following command:
+```sh
+sh pos-neg-project.sh {max_words} {project_id}
+```
+For example, to retrieve the top 15 most common positive and negative words from project \#2, run:
+```sh
+sh pos-neg-project.sh 15 2
+```
+Figures containing the specified number of positive and negative words will be contained within the output folder upon running the script.
 
 ### Comparing Project Sentiment - Reviewer vs Author
-To add.
+To generate a heatmap which compares interactions between reviewer and author across a project, run the following command:
+```python
+python3 heatmap.py {project_id} {min_interactions}
+```
+where min_interactions is the minimum number of interactions between a reviewer and author required for a given intersection to appear on the heatmap. The heatmap will be contained within the output folder.
 
 ### Automated Comment Scoring
 To receive automated feedback on a new review comment, run the following command:
