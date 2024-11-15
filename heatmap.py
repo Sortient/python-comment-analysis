@@ -26,7 +26,6 @@ x = x.loc[x.count(axis=1) > min_rev_interactions, :]
 c_map = plt.get_cmap('RdYlGn')
 try:
     norm = colors.TwoSlopeNorm(vmin=x.values.min(), vcenter=0, vmax=x.values.max())
-    fig, ax = plt.subplots(figsize=(10, 5))
     plt.imshow(x, cmap=c_map, norm=norm, interpolation='nearest')
     plt.colorbar()
     plt.xticks(range(len(x.columns)), x.columns.get_level_values(1))
@@ -41,7 +40,7 @@ try:
     filename = f"output/heatmap_{min_rev_interactions}_{min_comments}_{project_id}_{current_time}.png"
     plt.subplots_adjust(bottom=0.25)
     plt.savefig(filename)
-    # plt.show()
+    plt.show()
     
-except:
-    print("Could not load data")
+except Exception as e:
+    print(f"Could not load data\n{e}")
